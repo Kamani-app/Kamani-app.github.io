@@ -1,0 +1,156 @@
+/*------------All Section----------*/
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: sans-serif;
+	background-image: linear-gradient(to right, #4d0faf, #721a9e);
+	color: #fff;
+}
+
+/*------------Navbar Section----------*/
+#nav-bar {
+	position: sticky;
+	top: 0;
+	z-index: 10;
+}
+
+.navbar {
+	background-image: linear-gradient(to right, #191939, #471d70);
+	padding: 0 !important;
+}
+
+.navbar-brand img {
+	height: 40px;
+}
+
+.navbar-nav li {
+	padding: 0 10px;
+}
+
+.navbar-nav li a {
+	color: #fff !important;
+	font-weight: 600;
+}
+
+.dropdown-menu li a {
+	color: #000 !important;
+}
+
+.fa-bars {
+	color: #fff;
+}
+
+.navbar-toggler {
+	outline: none !important;
+}
+
+/*------------Banner Section----------*/
+#banner {
+	color: #fff;
+	padding-top: 5%;
+}
+
+.promo-title {
+	font-size: 40px;
+	font-weight: 600;
+	margin-top: 100px;
+	text-align: center;
+}
+
+#banner a {
+	color: #fff;
+	text-decoration: none;
+}
+
+#banner .button {
+	border-width: 0px;
+}
+
+/*------------Footer Section----------*/
+#footer {
+	background-image: linear-gradient(to right, #4d0faf, #721a9e);
+	color: #fff;
+}
+
+.footer-img {
+	width: 100%;
+}
+
+.footer-box {
+	padding: 30px;
+}
+
+.footer-box img {
+	width: 120px;
+	margin-bottom: 20px;
+}
+
+.footer-box .fa {
+	margin-right: 8px;
+	font-size: 25px;
+	height: 40px;
+	width: 40px;
+	text-align: center;
+	padding-top: 7px;
+	border-radius: 2px;
+	background-image: linear-gradient(to right, #471d70, #721a9e);
+}
+
+.footer-box .fab {
+	margin-right: 8px;
+	font-size: 25px;
+	height: 40px;
+	width: 40px;
+	text-align: center;
+	padding-top: 7px;
+	border-radius: 2px;
+	background-image: linear-gradient(to right, #471d70, #721a9e);
+}
+
+.footer-box .fas {
+	margin-right: 8px;
+	font-size: 25px;
+	height: 40px;
+	width: 40px;
+	text-align: center;
+	padding-top: 7px;
+	border-radius: 2px;
+	background-image: linear-gradient(to right, #471d70, #721a9e);
+}
+
+.footer-box .form-control {
+	box-shadow: none !important;
+	border: none;
+	border-radius: 0;
+	margin-top: 25px;
+	max-width: 250px;
+}
+
+.footer-box .btn-primary {
+	box-shadow: none !important;
+	border: none;
+	border-radius: 20px;
+	margin-top: 30px;
+	background-image: linear-gradient(to right, #4d0faf, #721a9e);
+}
+
+.footer-box .btn-primary:hover {
+	box-shadow: none !important;
+	border: none;
+	border-radius: 20px;
+	margin-top: 30px;
+	background-image: linear-gradient(to right, #721a9e, #4d0faf);
+}
+
+hr {
+	background-color: #fff;
+}
+
+.copyright {
+	margin-bottom: 0;
+	padding-bottom: 20px;
+	text-align: center;
+}
