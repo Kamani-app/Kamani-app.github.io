@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", function () {
 					cl.add(runClass);
 					setTimeout(function () {
 						cl.remove(runClass);
-						let download = "/Users/mrcode/Desktop/Code/Kamani/Logo.png.zip";
+						// let download = "/Users/mrcode/Desktop/Code/Kamani/Logo.png.zip";
 						window.location.href = download;
 						download_link.href = download;
 					}, 4000);

@@ -12,13 +12,13 @@ body {
 
 /*------------Navbar Section----------*/
 #nav-bar {
+	background-image: linear-gradient(to right, #4d0faf, #721a9e);
 	position: sticky;
 	top: 0;
 	z-index: 10;
 }
 
 .navbar {
-	background-image: linear-gradient(to right, #191939, #471d70);
 	padding: 0 !important;
 }
 
@@ -45,6 +45,16 @@ body {
 
 .navbar-toggler {
 	outline: none !important;
+}
+
+#theme-toggler {
+	margin: 15px;
+}
+
+label {
+	margin-top: 10px;
+	color: #fff;
+	font-weight: 600;
 }
 
 /*------------Banner Section----------*/
