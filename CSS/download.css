@@ -2,10 +2,10 @@
 * {
 	margin: 0;
 	padding: 0;
+	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;	
 }
 
 body {
-	font-family: sans-serif;
 	background-image: linear-gradient(to right, #4d0faf, #721a9e);
 	color: #fff;
 }
